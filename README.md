@@ -1,2 +1,2 @@
-# Classwork-PythonMachineLearningApplicationDevelopment
-The classwork from Python Machine Learning Application Development.
+# Classwork-PythonMLApplicationDevelopment
+The classwork from Python ML Application Development.
