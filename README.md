@@ -1,6 +1,6 @@
 # Classwork-PythonMLApplicationDevelopment
 
-The classwork from Python ML Application Development.
+The classwork from Python ML Application Development.\
 Python 機器學習應用開發 上課內容
 
 ## 使用 [Poetry](https://python-poetry.org/docs/) 安裝環境
