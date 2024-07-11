@@ -12,3 +12,4 @@ poetry install
 ## 課程內容
 
 - [20240709](https://github.com/chesterXalan/Classwork-PythonMLApplicationDevelopment/tree/main/lesson01) (01/22)
+- [20240711](https://github.com/chesterXalan/Classwork-PythonMLApplicationDevelopment/tree/main/lesson02) (02/22)

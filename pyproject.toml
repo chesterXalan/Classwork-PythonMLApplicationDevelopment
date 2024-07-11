@@ -12,6 +12,11 @@ numpy = "^2.0.0"
 matplotlib = "^3.9.1"
 pandas = "^2.2.2"
 scikit-learn = "^1.5.1"
+pypdf2 = "^3.0.1"
+pyttsx3 = "^2.90"
+seaborn = "^0.13.2"
+joblib = "^1.4.2"
+streamlit = "^1.36.0"
 
 
 [tool.poetry.group.jupyter.dependencies]
