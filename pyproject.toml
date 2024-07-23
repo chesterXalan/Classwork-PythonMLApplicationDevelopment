@@ -18,6 +18,7 @@ seaborn = "^0"
 joblib = "^1.4.2"
 streamlit = "^1.36.0"
 sympy = "^1.13.0"
+pulp = "^2.9.0"
 
 
 [tool.poetry.group.jupyter.dependencies]
