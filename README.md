@@ -20,3 +20,4 @@ poetry install
 - [20240730](https://github.com/chesterXalan/Classwork-PythonMLApplicationDevelopment/tree/main/lesson06) (06/22)
 - [20240801](https://github.com/chesterXalan/Classwork-PythonMLApplicationDevelopment/tree/main/lesson07) (07/22)
 - [20240806](https://github.com/chesterXalan/Classwork-PythonMLApplicationDevelopment/tree/main/lesson08) (08/22)
+- [20240808](https://github.com/chesterXalan/Classwork-PythonMLApplicationDevelopment/tree/main/lesson09) (09/22)
