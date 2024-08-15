@@ -1,11 +1,13 @@
 # pip install streamlit-drawable-canvas
-import numpy as np
-import streamlit as st
-import tensorflow as tf
-from skimage import color, data, io
-from skimage.color import rgb2gray, rgba2rgb
-from skimage.transform import downscale_local_mean, rescale, resize
+import streamlit as st 
 from streamlit_drawable_canvas import st_canvas
+from skimage import data, color, io
+from skimage.transform import rescale, resize, downscale_local_mean
+from skimage.color import rgb2gray, rgba2rgb
+
+import numpy as np  
+import tensorflow as tf
+import keras
 
 st.set_page_config(
     page_title = "英文字母辨識",
@@ -13,8 +15,9 @@ st.set_page_config(
 )
 
 # 模型載入
+# @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model('emnist_cnn_model.h5')
+    return keras.saving.load_model('emnist_cnn_model.keras')
 
 model = load_model()
 
