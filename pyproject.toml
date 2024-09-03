@@ -16,8 +16,8 @@ pypdf2 = "^3.0.1"
 pyttsx3 = "^2.90"
 seaborn = "^0"
 joblib = "^1.4.2"
-streamlit = "^1.36.0"
-sympy = "^1.13.0"
+streamlit = "^1.38.0"
+sympy = "^1.13.2"
 pulp = "^2.9.0"
 tensorflow = {extras = ["and-cuda"], version = "^2.17.0"}
 pyqt6 = "^6.7.1"
@@ -29,11 +29,11 @@ mplfinance = "^0"
 yfinance = "^0"
 
 [tool.poetry.group.jupyter.dependencies]
-notebook = "^7.2.1"
-ipywidgets = "^8.1.4"
+notebook = "^7.2.2"
+ipywidgets = "^8.1.5"
 
 [tool.poetry.group.test.dependencies]
-pytest = "^8.2.2"
+pytest = "^8.3.2"
 
 [tool.poetry.group.types.dependencies]
 types-tensorflow = "^2.17.0.20240820"
