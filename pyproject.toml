@@ -7,7 +7,7 @@ readme = "README.md"
 package-mode = false
 
 [tool.poetry.dependencies]
-python = ">=3.12,<3.13"
+python = ">=3.12.6,<3.13"
 numpy = "<2.0.0"
 matplotlib = "^3.9.2"
 pandas = "^2.2.2"
@@ -31,6 +31,7 @@ nltk = "^3.9.1"
 graphviz = "^0"
 pydotplus = "^2.0.2"
 imbalanced-learn = "^0"
+xgboost = "^2.1.1"
 
 [tool.poetry.group.jupyter.dependencies]
 notebook = "^7.2.2"
@@ -40,7 +41,7 @@ ipywidgets = "^8.1.5"
 pytest = "^8.3.3"
 
 [tool.poetry.group.types.dependencies]
-types-tensorflow = "^2.17.0.20240820"
+types-tensorflow = "^2.17.0.20240920"
 
 [build-system]
 requires = ["poetry-core"]
